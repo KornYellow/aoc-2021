@@ -22,7 +22,8 @@ void part1() {
 
     read_file.close();
 
-    std::cout << "Part 1 Answer: " << count << std::endl;
+    std::string answer = std::to_string(count);
+    std::cout << "Part 1 Answer: " << answer << std::endl;
 }
 
 void part2() {
@@ -63,7 +64,8 @@ void part2() {
 
     read_file.close();
 
-    std::cout << "Part 2 Answer: " << count << std::endl;
+    std::string answer = std::to_string(count);
+    std::cout << "Part 2 Answer: " << answer << std::endl;
 }
 
 int main() {
